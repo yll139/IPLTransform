@@ -26,7 +26,7 @@ int main(int argc,  char *argv[])
 
     double max_error, ave_error;
 	
-	int Size = (argc > 1) ? atoi(argv[1]) : 50;//the default size of square matrix M is 50x50.
+    int Size = (argc > 1) ? atoi(argv[1]) : 50;//the default size of square matrix M is 50x50.
     int LOOP_COUNT = (argc > 2) ? atoi(argv[2]) : 10000;//the default size of LOOP_COUNT is 10000.
 	
     printf("Y = M x X, \nwhere the size of square matrix M is %dx%d and the size of vector X is %dx1.\n\n", 
